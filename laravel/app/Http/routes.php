@@ -11,4 +11,10 @@
 |
 */
 
-Route::get('discussion', 'DiscussionController@index');
+
+Route::get('admin', 'admin\ResidentialController@index');
+
+Route::get('come','admin\ResidentialController@come');
+Route::get('top','admin\ResidentialController@top');
+Route::get('left','admin\ResidentialController@left');
+Route::get('right','admin\ResidentialController@right');
